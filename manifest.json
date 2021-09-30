@@ -1,0 +1,21 @@
+{
+  "name": "pwa-test",
+  "short_name": "pwa-test",
+  "start_url": "index.html",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "icono-munieventos.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icono-munieventos.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffd31d",
+  "background_color": "#333",
+  "display": "standalone"
+}
