@@ -1,6 +1,6 @@
 {
-  "name": "pwa-test",
-  "short_name": "pwa-test",
+  "name": "DEMO PWA - SS",
+  "short_name": "DEMO PWA - SS",
   "start_url": "index.html",
   "scope": "./",
   "icons": [
