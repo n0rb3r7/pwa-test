@@ -21,3 +21,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+.logo {
+  height: auto;
+  width: 70vw;
+}
