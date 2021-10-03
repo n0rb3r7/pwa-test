@@ -1,6 +1,13 @@
+* {
+  margin: 0px;
+}
+body,
+html {
+  height: 100%;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: #000 !important;
   color: white;
   display: flex;
@@ -20,8 +27,34 @@ body {
   padding: 10px 20px 10px 20px;
   text-transform: uppercase;
   text-decoration: none;
+  margin-bottom: 20px;
+  min-width: 200px;
 }
 .logo {
   height: auto;
-  width: 70vw;
+  width: 30vw;
+}
+.cover {
+  background-color: white;
+  background: url("https://images.pexels.com/photos/5186869/pexels-photo-5186869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  animation: animatedBackground 10s linear infinite alternate;
+}
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    height: auto;
+    width: 70vw;
+  }
 }
