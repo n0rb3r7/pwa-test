@@ -1,9 +1,15 @@
 // Installing service worker
-const CACHE_NAME = "pwa-test";
+const CACHE_NAME = "PWA-Demo";
 
 /* Add relative URL of all the static content you want to store in
  * cache storage (this will help us use our app offline)*/
-let resourcesToCache = ["./"];
+let resourcesToCache = [
+  "./",
+  "./images/icon-b.png",
+  "./images/icon-w.png",
+  "./images/ss-logo-w.png",
+  "./styles.css",
+];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(
@@ -22,7 +28,7 @@ self.addEventListener("fetch", (e) => {
 });
 
 // Update a service worker
-const cacheWhitelist = ["pwa-test"];
+const cacheWhitelist = ["PWA-Demo"];
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
