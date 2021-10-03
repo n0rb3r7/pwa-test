@@ -28,7 +28,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   margin-bottom: 20px;
-  min-width: 200px;
+  min-width: 170px;
+  text-align: center;
 }
 .logo {
   height: auto;
