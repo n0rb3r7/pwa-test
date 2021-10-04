@@ -1,7 +1,6 @@
 {
   "name": "DEMO PWA - SS",
   "short_name": "DEMO PWA - SS",
-  ​​"orientation": "portrait",
   "start_url": "index.html",
   "scope": "./",
   "icons": [
