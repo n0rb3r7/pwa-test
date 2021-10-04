@@ -5,10 +5,18 @@ const CACHE_NAME = "PWA-Demo";
  * cache storage (this will help us use our app offline)*/
 let resourcesToCache = [
   "./",
+  "./index.html",
+  "./page2.html",
+  "./manifest.json",
+  "./service-worker.js",
+  "./styles.css",
+  "./offline.html",
+  "./ss-favicon.png",
+  "./images/icons",
   "./images/icon-b.png",
   "./images/icon-w.png",
   "./images/ss-logo-w.png",
-  "./styles.css",
+  "./images/cover-b.jpg",
 ];
 
 self.addEventListener("install", (e) => {

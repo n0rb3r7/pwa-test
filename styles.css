@@ -22,9 +22,10 @@ body {
 .btn {
   background-color: #f20040;
   color: white;
-  border: #f20040 1px solid;
+  border: #000000 1px solid;
   border-radius: 5px;
   padding: 10px 20px 10px 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
   text-decoration: none;
   margin-bottom: 20px;
@@ -37,13 +38,12 @@ body {
 }
 .cover {
   background-color: white;
-  background: url("https://images.pexels.com/photos/5186869/pexels-photo-5186869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
-    no-repeat center center;
+  background: url("./images/cover-b.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  animation: animatedBackground 10s linear infinite alternate;
+  animation: animatedBackground 50s linear infinite alternate;
 }
 @keyframes animatedBackground {
   from {
