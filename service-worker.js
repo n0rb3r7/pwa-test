@@ -10,7 +10,6 @@ let resourcesToCache = [
   "./manifest.json",
   "./service-worker.js",
   "./styles.css",
-  "./offline.html",
   "./ss-favicon.png",
   "./images/icons",
   "./images/icon-b.png",
